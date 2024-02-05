@@ -151,13 +151,13 @@
                     <span class="abs-img"><img src="{{ asset('/') }}frontend/assets/images/material/shape-img-abs.png" alt=""></span>
                 </a>
                 <a href="story/faitology.html" class="text anim-from-bottom" trigger-anim=".trigger-about" delay="0.8">
-                    <small class="text-line">OUR MOTTO</small>
+                    <small class="text-line">{{ trans('frontend.home.motto') }}</small>
                     <span class="number-big"><img src="{{ asset('/') }}frontend/assets/contents/index.html" alt=""></span>
-                    <h1>TOMORROW’S INNOVATIVE ENGINEERING</h1>
-                    <p>We present future technological innovations.</p>
-                    <p>Faito focus creates innovative products by considering performance, durability and comfort to provide a better riding experience.</p>
+                    <h1>{{ trans('frontend.home.motto_title') }}</h1>
+                    <p>{{ trans('frontend.home.motto_sub_title') }}</p>
+                    <p>{{ trans('frontend.home.motto_des') }}</p>
                     <p>&nbsp;</p>
-                    <span class="btn-arr">Read More</span>
+                    <span class="btn-arr">{{ trans('frontend.home.motto_btn') }}</span>
                 </a>
             </div>
         </div>
@@ -170,11 +170,11 @@
         <div class="wrap-flex-home sec-2">
             <a href="story/faitotech.html" class="text anim-from-bottom" trigger-anim=".trigger-about-2" delay="0.6">
                 <span class="number-big"><img src="{{ asset('/') }}frontend/assets/contents/index.html" alt=""></span>
-                <small class="text-line">FAITOTECH</small>
-                <h1>TECHNOLOGY FOR SOLUTIONS</h1>
-                <p>We perfect the technology so that driving comfort and performance is more excellent.</p>
+                <small class="text-line">{{ trans('frontend.home.faitotech') }}</small>
+                <h1>{{ trans('frontend.home.faitotech_title') }}</h1>
+                <p>{{ trans('frontend.home.faitotech_des') }}</p>
                 <p>&nbsp;</p>
-                <span class="btn-arr">Read More</span>
+                <span class="btn-arr">{{ trans('frontend.home.faitotech_btn') }}</span>
             </a>
             <a href="story/faitotech.html" class="img anim-from-bottom" trigger-anim=".trigger-about-2" delay="0.3">
                 <figure>
