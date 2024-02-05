@@ -190,8 +190,8 @@
         <div class="wrapper">
             <div class="text-tittle">
                 <span class="number-big"><img src="{{ asset('/') }}frontend/assets/contents/index.html" alt=""></span>
-                <small class="text-line vertical anim-from-bottom" trigger-anim=".trigger-product" delay="0.3">FAITO PRODUCTS</small>
-                <h1 class="anim-from-bottom" trigger-anim=".trigger-product" delay="0.5">THE RIGHT CHOICE FOR EVERY BIKER</h1>
+                <small class="text-line vertical anim-from-bottom" trigger-anim=".trigger-product" delay="0.3">{{ trans('frontend.home.faito_products') }}</small>
+                <h1 class="anim-from-bottom" trigger-anim=".trigger-product" delay="0.5">{{ trans('frontend.home.faito_products_title') }}</h1>
             </div>
             <div class="box-slider-product-home anim-from-bottom" trigger-anim=".trigger-product" delay="0.7">
                 <div class="slider-product-home">
@@ -243,7 +243,7 @@
                     <div class="line-indicator-slider">
                         <span></span>
                     </div>
-                    <a href="product-faito.html" class="btn-arr">View All Product</a>
+                    <a href="product-faito.html" class="btn-arr">{{ trans('frontend.home.view_all_product') }}</a>
                 </div>
             </div>
         </div>
@@ -253,8 +253,8 @@
         <div class="trigger-news"></div>
         <div class="wrapper">
             <div class="title-news anim-from-bottom" trigger-anim=".trigger-news" delay="0.3">
-                <h4>Latest Update</h4>
-                <a href="news.html" class="btn-arr">View All</a>
+                <h4>{{ trans('frontend.home.latest_update') }}</h4>
+                <a href="news.html" class="btn-arr">{{ trans('frontend.home.view_all') }}</a>
             </div>
             <div class="wrap-box-news">
                 <a href="news/detail/new-item-arrival-steering-cone-mx-series.html" class="big-img anim-from-bottom" trigger-anim=".trigger-news" delay="0.6">

@@ -66,13 +66,13 @@
         </ul>
     </nav>
     <div class="box-lang">
-        @if(!Session::has('eng'))
+       
         <a href="{{ route('frontend.language-change',['name' => 'eng']) }}"><span class="active">EN</span></a>
-        @endif
+      
 
-        @if(!Session::has('ban'))
+        
         <a href="{{ route('frontend.language-change',['name' => 'ban']) }}"><span>BN</span>
-        </a>@endif
+        </a>
     </div>
     <div class="box-search">
         <span class="icon-search"><img src="{{ asset('/') }}frontend/assets{{ asset('/') }}frontend/assets/images/material/ic-search.png" alt=""></span>
