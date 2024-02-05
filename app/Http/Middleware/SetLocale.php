@@ -3,24 +3,18 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\Middleware;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 
-class SetLocale
+class SetLocale 
 {
-    public function handle($request, Closure $next)
+    public function handle(Request $request, Closure $next)
     {
-        if (request('change_language')) {
-            session()->put('language', request('change_language'));
-            $language = request('change_language');
-        } elseif (session('language')) {
-            $language = session('language');
-        } elseif (config('panel.primary_language')) {
-            $language = config('panel.primary_language');
+        if (Session::has('locale')) {
+            App::setLocale(Session::get('locale'));
         }
-
-        if (isset($language)) {
-            app()->setLocale($language);
-        }
-
         return $next($request);
     }
 }

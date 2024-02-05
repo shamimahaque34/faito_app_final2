@@ -11,9 +11,9 @@ class HomeController extends Controller
     public function home()
     {
 
-        if (!Session::has('ban'))
+        if (!Session::has('bn'))
         {
-            Session::put('eng', 'English');
+            Session::put('en', 'English');
         }
         return view('frontend.home.index');
     }
@@ -61,16 +61,16 @@ class HomeController extends Controller
 
     public function changeLanguage ($lanCode)
     {
-        if ($lanCode == 'eng')
+        if ($lanCode == 'en')
         {
             
-                Session::forget('ban');
-                Session::put('eng', 'English');
+                Session::forget('bn');
+                Session::put('en', 'English');
         } 
         else {
 
-                Session::forget('eng');
-                Session::put('ban', 'Bangla');
+                Session::forget('en');
+                Session::put('bn', 'Bangla');
         
         }
         return redirect()->back();

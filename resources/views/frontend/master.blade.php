@@ -15,6 +15,11 @@
 
     <!--js-->
     <!--build:js js/main.min.js -->
+
+    <script>
+      const BASEURL = "{!! url('/') !!}" + '/';
+      
+    </script>
     @include('frontend.includes.assets.script')
     <!--endbuild-->
 </head>

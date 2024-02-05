@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Backend\HomeProductController;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,18 @@ Route::name('frontend.')->group(function (){
     Route::get('/story/news', [HomeController::class, 'blog'])->name('blog');
     Route::get('/story/news/detail/blogDetails', [HomeController::class, 'blogDetails'])->name('blog-details');
 
-    Route::get('/language-change/{name}', [HomeController::class,'changeLanguage'])->name('language-change'); // Language Change
+    // Route::get('/language-change/{name}', [HomeController::class,'changeLanguage'])->name('language-change'); // Language Change
+
+    Route::get('/change-language/{local}', function ($local){
+        if (!in_array($local, ['en','bn']))
+        {
+            abort(400);
+        }
+    
+        App::setLocale($local);
+        session()->put('locale', $local);
+        return redirect()->back();
+    })->name('language-change');
 
     Route::get('/product', [HomeProductController::class, 'product'])->name('product');
     Route::get('/product/detail/subCat', [HomeProductController::class, 'subCat'])->name('sub-cat');

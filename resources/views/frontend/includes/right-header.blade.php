@@ -67,12 +67,9 @@
     </nav>
     <div class="box-lang">
        
-        <a href="{{ route('frontend.language-change',['name' => 'eng']) }}"><span class="active">EN</span></a>
-      
-
         
-        <a href="{{ route('frontend.language-change',['name' => 'ban']) }}"><span>BN</span>
-        </a>
+        <span onclick="changeLang('en')" class="{{ Session::has('locale') && Session::get('locale') == 'en' ? 'active' : ''}}">EN</span>
+        <span onclick="changeLang('bn')" class="{{Session::has('locale') && Session::get('locale') == 'bn' ? 'active' : ''}}">BN</span>
     </div>
     <div class="box-search">
         <span class="icon-search"><img src="{{ asset('/') }}frontend/assets{{ asset('/') }}frontend/assets/images/material/ic-search.png" alt=""></span>

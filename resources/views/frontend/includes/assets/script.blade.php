@@ -5,8 +5,10 @@
 
 <script type="text/javascript" src="{{ asset('/') }}frontend/assets/fe/js/main.min.js"></script>
 <script type="text/javascript">
-    function changeLang(lang,id){
-        window.location = "https://faito.co.id/changelang/" + lang + "/" + id ;
+
+    function changeLang(lang){
+        // window.location = "https://faito.co.id/changelang/" + lang ;
+        window.location = BASEURL + 'change-language/' + lang;
     }
 </script>
 

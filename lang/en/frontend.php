@@ -101,7 +101,7 @@ return [
         'brembology_milestones_3_des_5'=>'The resulting collaboration allowed the Italian management to grow and consolidate itself in preparation for the challenges of the future.',
         'brembology_milestones_3_des_6'=>'AN ALL-ITALIAN COMPANY ONCE AGAIN',
         'brembology_milestones_3_des_7'=>'In March 1993, as a consequence of a new strategic orientation, Kelsey-Hayes withdrew as a shareholder in the company. Brembo decided to focus its energies on the future of the company and, indirectly, on the competitiveness of the Italian manufacturing industry, drawing strength from the expertise of its managerial personnel and its technological superiority.',
-        // 'brembology_milestones_3_des_8'=>'When the company bought back the shareholding from Kelsey-Hayes, the goal set by Brembo's management was achieved in full. The company continued to grow throughout the subsequent years, and was listed on the Milan Stock Exchange in 1995: a success earned through intense teamwork, as is always the case at Brembo.',
+        'brembology_milestones_3_des_8'=>'When the company bought back the shareholding from Kelsey-Hayes, the goal set by Brembo\'s management was achieved in full. The company continued to grow throughout the subsequent years, and was listed on the Milan Stock Exchange in 1995: a success earned through intense teamwork, as is always the case at Brembo.',
         
     ]
         
