@@ -45,6 +45,7 @@ Route::name('frontend.')->group(function (){
     Route::get('/product/detail/subCat', [HomeProductController::class, 'subCat'])->name('sub-cat');
     Route::get('/product/detail/subSubCat', [HomeProductController::class, 'subSubCat'])->name('sub-sub-cat');
     Route::get('/product/detail/productDetails', [HomeProductController::class, 'productDetails'])->name('product-details');
+    Route::get('/search/productSearch', [HomeProductController::class, 'productSearch'])->name('product-search');
 });
 
 Route::middleware([

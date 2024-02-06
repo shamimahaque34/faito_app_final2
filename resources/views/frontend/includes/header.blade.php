@@ -1,4 +1,4 @@
-<header class=>
+<header class="{{ isset($is_nobanner) ? 'nobanner' : '' }}">
     <div class="wrapper">
         <div class="logo white">
             <a
@@ -8,29 +8,29 @@
                      alt=""></a>
             <a
                 target="_self"
-                href="searchab67.html?title=FRD">
+                href="{{ route('frontend.product-search') }}">
                 <img src="{{ asset('/') }}frontend/assets/contents/Xuczl0Gp6S.svg"
                      alt=""></a>
             <a
                 target="_self"
-                href="searchdfa1.html?title=brembo">
+                href="{{ route('frontend.product-search') }}">
                 <img src="{{ asset('/') }}frontend/assets/contents/pyvI3XbF6c.svg"
                      alt=""></a>
         </div>
         <div class="logo black">
             <a
                 target="_self"
-                href="../en.html">
+                href="{{ route('frontend.home') }}">
                 <img src="{{ asset('/') }}frontend/assets/contents/mwCf0qfJ80.svg"
                      alt=""></a>
             <a
                 target="_self"
-                href="searchab67.html?title=FRD">
+                href="{{ route('frontend.product-search') }}">
                 <img src="{{ asset('/') }}frontend/assets/contents/QQLuesY68Q.svg"
                      alt=""></a>
             <a
                 target="_self"
-                href="searchdfa1.html?title=brembo">
+                href="{{ route('frontend.product-search') }}">
                 <img src="{{ asset('/') }}frontend/assets/contents/x1ea8i9Hqc.svg"
                      alt=""></a>
         </div>

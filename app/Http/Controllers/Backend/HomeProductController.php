@@ -19,12 +19,24 @@ class HomeProductController extends Controller
 
     public function subSubCat()
     {
-        return view('frontend.product.sub-sub-cat');
+        return view('frontend.product.sub-sub-cat', [
+            'is_nobanner' => 1,
+        ]);
     }
 
     public function productDetails()
     {
-        return view('frontend.product.product-details');
+        return view('frontend.product.product-details', [
+            'is_nobanner' => 1,
+        ]);
+    }
+
+
+    public function productSearch()
+    {
+        return view('frontend.product.product-search', [
+            'is_nobanner' => 1,
+        ]);
     }
 
     
