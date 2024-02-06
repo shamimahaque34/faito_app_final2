@@ -1,6 +1,34 @@
 <?php
 
 return [
+
+   'menu'=>[
+      'home' =>'Home',
+      'story'=>'Story',
+      'product'=>'Product',
+      'contact'=>'Contact',
+      'faq'=>'FAQ',
+
+   ],
+
+    'story_dropdown'=>[
+        'faitology'=>'Faitology',
+        'faitotech'=>'Faitotech',
+        'brembology'=>'brembology',
+        'testimonial'=>'TESTIMONIAL',
+        'news'=>'News',
+    ],
+
+    'product_dropdown'=>[
+      'faito_products'=>'Faito Products',
+      'brembo_products'=>'Brembo Products',
+
+    ],
+
+    'footer'=>[
+     'faito_careline'=>'Faito Careline',
+    ],
+
  'home' =>[
 
     'motto' => 'OUR MOTTO',
@@ -105,6 +133,21 @@ return [
         
     ]
         
+    ],
+
+    'testimonial' =>[
+      'testimonial_upper' =>'TESTIMONIAL',
+      'testimonial' =>'Testimonial',
+    ],
+
+    'news' =>[
+      'news'=>'News',
+    ],
+
+    'blog_details' =>[
+       'new_item_arrival'=>'NEW ITEM ARRIVAL!',
+       'new_item'=>'NEW ITEM!',
+       'feature'=>'FEATURE :',
     ],
 
 

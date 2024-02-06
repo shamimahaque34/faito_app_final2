@@ -58,24 +58,6 @@ class HomeController extends Controller
         return view('frontend.story.news.blog-details');
     }
 
-
-    public function changeLanguage ($lanCode)
-    {
-        if ($lanCode == 'en')
-        {
-            
-                Session::forget('bn');
-                Session::put('en', 'English');
-        } 
-        else {
-
-                Session::forget('en');
-                Session::put('bn', 'Bangla');
-        
-        }
-        return redirect()->back();
-    }
-
     
 
 }

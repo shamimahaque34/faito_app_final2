@@ -8,8 +8,10 @@
             <div class="box head-burger">
                 <h5><a href="{{ route('frontend.home') }}">Home</a></h5>
                 <div class="box-lang">
-                    <span onclick="changeLang('en','1')" class="active">EN</span>
-                    <span onclick="changeLang('bn','1')" class="">BN</span>
+                    {{-- <span onclick="changeLang('en','1')" class="active">EN</span>
+                    <span onclick="changeLang('bn','1')" class="">BN</span> --}}
+                    <span onclick="changeLang('en')" class="{{ Session::has('locale') && Session::get('locale') == 'en' ? 'active' : ''}}">EN</span>
+                    <span onclick="changeLang('bn')" class="{{Session::has('locale') && Session::get('locale') == 'bn' ? 'active' : ''}}">BN</span>
                 </div>
             </div>
             <div class="box wrap-drop">
