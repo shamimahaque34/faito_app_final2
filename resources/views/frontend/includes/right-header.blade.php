@@ -3,71 +3,69 @@
         <ul>
             <li>
                 <a class="active" href="{{ route('frontend.home') }}">
-                    Home
+                    {{ trans('frontend.menu.home') }}
                 </a>
             </li>
             <li class="have-child">
-                <a class="" href="#" class="">Story</a>
+                <a class="" href="#" class="">{{ trans('frontend.menu.story') }}</a>
                 <ul>
                     <li>
                         <a class=""
                            href="{{ route('frontend.faitology') }}">
-                            Faitology
+                           {{ trans('frontend.story_dropdown.faitology') }}
                         </a>
                     </li>
                     <li>
                         <a class=""
                            href="{{ route('frontend.faitotech') }}">
-                            Faitotech
+                           {{ trans('frontend.story_dropdown.faitotech') }}
                         </a>
                     </li>
                     <li>
                         <a class=""
                            href="{{ route('frontend.brembology') }}">
-                            Brembology
+                           {{ trans('frontend.story_dropdown.brembology') }}
                         </a>
                     </li>
                     <li>
                         <a class=""
                            href="{{ route('frontend.testimonial') }}">
-                            TESTIMONIAL
+                           {{ trans('frontend.story_dropdown.testimonial') }}
                         </a>
                     </li>
                     <li>
                         <a class=""
                            href="{{ route('frontend.blog') }}">
-                            News
+                           {{ trans('frontend.story_dropdown.news') }}
                         </a>
                     </li>
                 </ul>
             </li>
             <li class="have-child">
-                <a class="" href="#" class="">Product</a>
+                <a class="" href="#" class="">{{ trans('frontend.menu.product') }}</a>
                 <ul>
                     <li>
                         <a class=""
                            href="{{ route('frontend.product') }}">
-                            Faito Products
+                           {{ trans('frontend.product_dropdown.faito_products') }}
                         </a>
                     </li>
                     <li>
                         <a class=""
                            href="{{ route('frontend.product') }}">
-                            Brembo Products
+                           {{ trans('frontend.product_dropdown.brembo_products') }}
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a class="" href="{{ route('frontend.contact') }}">
-                    Contact
+                    {{ trans('frontend.menu.contact') }}
                 </a>
             </li>
         </ul>
     </nav>
     <div class="box-lang">
-       
-        
         <span onclick="changeLang('en')" class="{{ Session::has('locale') && Session::get('locale') == 'en' ? 'active' : ''}}">EN</span>
         <span onclick="changeLang('bn')" class="{{Session::has('locale') && Session::get('locale') == 'bn' ? 'active' : ''}}">BN</span>
     </div>

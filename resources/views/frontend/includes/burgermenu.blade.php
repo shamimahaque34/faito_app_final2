@@ -6,7 +6,7 @@
     <div class="box-inner-search burgermenuinner normal-search active">
         <div class="navigasi">
             <div class="box head-burger">
-                <h5><a href="{{ route('frontend.home') }}">Home</a></h5>
+                <h5><a href="{{ route('frontend.home') }}">{{ trans('frontend.menu.home') }}</a></h5>
                 <div class="box-lang">
                     {{-- <span onclick="changeLang('en','1')" class="active">EN</span>
                     <span onclick="changeLang('bn','1')" class="">BN</span> --}}
@@ -17,53 +17,53 @@
             <div class="box wrap-drop">
                 <ul>
                     <li class="have-child">
-                        <a href="index.html#">Story</a>
+                        <a href="index.html#">{{ trans('frontend.menu.story') }}</a>
                         <ul>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.faitology') }}">
-                                    Faitology
+                                   {{ trans('frontend.story_dropdown.faitology') }}
                                 </a>
                             </li>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.faitotech') }}">
-                                    Faitotech
+                                   {{ trans('frontend.story_dropdown.faitotech') }}
                                 </a>
                             </li>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.brembology') }}">
-                                    Brembology
+                                   {{ trans('frontend.story_dropdown.brembology') }}
                                 </a>
                             </li>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.testimonial') }}">
-                                    TESTIMONIAL
+                                   {{ trans('frontend.story_dropdown.testimonial') }}
                                 </a>
                             </li>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.blog') }}">
-                                    News
+                                   {{ trans('frontend.story_dropdown.news') }}
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li class="have-child">
-                        <a href="product.html">Product</a>
+                        <a href="product.html">{{ trans('frontend.menu.product') }}</a>
                         <ul>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.product') }}">
-                                    Faito Products
+                                   {{ trans('frontend.product_dropdown.faito_products') }}
                                 </a>
                             </li>
                             <li>
                                 <a class=""
                                    href="{{ route('frontend.product') }}">
-                                    Brembo Products
+                                   {{ trans('frontend.product_dropdown.brembo_products') }}
                                 </a>
                             </li>
                         </ul>
@@ -74,12 +74,12 @@
                 <ul>
                     <li>
                         <a class="" href="{{ route('frontend.contact') }}">
-                            Contact
+                            {{ trans('frontend.menu.contact') }}
                         </a>
                     </li>
                     <li>
                         <a class="" href="{{ route('frontend.faq') }}">
-                            FAQ
+                            {{ trans('frontend.menu.faq') }}
                         </a>
                     </li>
                 </ul>

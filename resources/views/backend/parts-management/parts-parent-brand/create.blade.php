@@ -1,6 +1,6 @@
 @extends('backend.master')
 
-@section('title', 'Create Parts Parent Brand')
+@section('title', isset($partsParentBrand) ? 'Edit' : 'Create'.' Parts Parent Brand')
 
 @section('body')
     <div class="row mt-5">

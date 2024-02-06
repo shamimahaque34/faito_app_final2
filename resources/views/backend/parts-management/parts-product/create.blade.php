@@ -2,7 +2,7 @@
 
 @extends('backend.master')
 
-@section('title', 'Create Parts Product')
+@section('title', isset($partsProduct) ? 'Edit' : 'Create'.' Parts Product')
 
 @section('body')
     <div class="row mt-5">

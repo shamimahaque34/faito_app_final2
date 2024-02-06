@@ -20,8 +20,8 @@
                 <div class="title-landing full">
                     <div class="title">
                         <span class="line-text"></span>
-                        <small>Contact</small>
-                        <h3>Contact</h3>
+                        <small>{{ trans('frontend.contact.contact') }}</small>
+                        <h3>{{ trans('frontend.contact.contact') }}</h3>
                     </div>
                 </div>
                 <div class="wrap-box-news contact">
@@ -40,44 +40,44 @@
                     </div>
                 </div>
                 <div class="wrap-tab">
-                    <span class="sub">Available For</span>
+                    <span class="sub">{{ trans('frontend.contact.available_for') }}</span>
                     <div class="wrap-overflow">
                         <div class="box-tabing contact">
                             <span class="repeat-dots"></span>
                             <div class="head-tab">
                                 <ul>
-                                    <li><a href="#tab1">Say Hello!</a></li>
-                                    <li><a href="#tab2">Join Reseller</a></li>
+                                    <li><a href="#tab1">{{ trans('frontend.contact.say_hello') }}</a></li>
+                                    <li><a href="#tab2">{{ trans('frontend.contact.join_reseller') }}</a></li>
                                 </ul>
                             </div>
                             <div class="content-tab text-content" id="tab1">
-                                <h4>Send Us a Message</h4>
-                                <p>Send Us a Message Description</p>
+                                <h4>{{ trans('frontend.contact.send_msg') }}</h4>
+                                <p>{{ trans('frontend.contact.send_msg_des') }}</p>
                                 <div class="form">
                                     <form method="POST" action="https://faito.co.id/en/contact" accept-charset="UTF-8" id="formContact" enctype="multipart/form-data"><input name="_token" type="hidden" value="p49Kc0X40mBZyyiVX75579WaPVSDHERVKs7BD5Du">
                                         <div class="row">
                                             <div class="col half">
-                                                <label for="">Name</label>
+                                                <label for="">{{ trans('frontend.contact.name') }}</label>
                                                 <input class="anim-label" required="required" name="name" type="text" value="">
                                             </div>
                                             <div class="col half">
-                                                <label for="">Email</label>
+                                                <label for="">{{ trans('frontend.contact.email') }}</label>
                                                 <input class="anim-label" required="required" name="email" type="email" value="">
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col half">
-                                                <label for="">Phone</label>
+                                                <label for="">{{ trans('frontend.contact.phone') }}</label>
                                                 <input class="numberonly anim-label" required="required" name="phone" type="number" value="">
                                             </div>
                                             <div class="col half">
-                                                <label for="">Motor Type</label>
+                                                <label for="">{{ trans('frontend.contact.motor_type') }}</label>
                                                 <select class="anim-label" required="required" name="motor_type_id"><option value="" selected="selected"></option><option value="5">Bebek</option><option value="6">Matic</option><option value="7">Sport</option><option value="8">Cross</option><option value="10">Matic Premium</option><option value="11">-</option></select>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col">
-                                                <label for="">Message</label>
+                                                <label for="">{{ trans('frontend.contact.message') }}</label>
                                                 <textarea class="anim-label" required="required" name="message" cols="50" rows="10"></textarea>
                                             </div>
                                         </div>
@@ -95,47 +95,47 @@
                                 </div>
                             </div>
                             <div class="content-tab" id="tab2">
-                                <h4>Become Reseller</h4>
-                                <p>Become Reseller Description</p>
+                                <h4>{{ trans('frontend.contact.become_reseller') }}</h4>
+                                <p>{{ trans('frontend.contact.become_reseller_des') }}</p>
                                 <div class="form">
                                     <form method="POST" action="https://faito.co.id/en/contact/reseller" accept-charset="UTF-8" id="formReseller" enctype="multipart/form-data"><input name="_token" type="hidden" value="p49Kc0X40mBZyyiVX75579WaPVSDHERVKs7BD5Du">
                                         <div class="row">
                                             <div class="col half">
-                                                <label for="">Name</label>
+                                                <label for="">{{ trans('frontend.contact.name') }}</label>
                                                 <input class="anim-label" required="required" name="name" type="text" value="">
                                             </div>
                                             <div class="col half">
-                                                <label for="">Email</label>
+                                                <label for="">{{ trans('frontend.contact.email') }}</label>
                                                 <input class="anim-label" required="required" name="email" type="email" value="">
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col half">
-                                                <label for="">Phone</label>
+                                                <label for="">{{ trans('frontend.contact.phone') }}</label>
                                                 <input class="number-only anim-label" required="required" name="phone" type="text" value="">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <h5>Workshop Information</h5>
+                                            <h5>{{ trans('frontend.contact.workshop_info') }}</h5>
                                         </div>
                                         <div class="row">
                                             <div class="col">
-                                                <label for="">Address</label>
+                                                <label for="">{{ trans('frontend.contact.address') }}</label>
                                                 <input class="anim-label" required="required" name="address" type="text" value="">
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col fileupload">
-                                                <label for="">Photo Outside Workshop</label>
-                                                <input class="anim-label" placeholder-text="Upload Here" required="required" name="image_inside" type="file">
+                                                <label for="">{{ trans('frontend.contact.photo_outside_workshop') }}</label>
+                                                <input class="anim-label" placeholder-text="{{ trans('frontend.contact.upload_here') }}" required="required" name="image_inside" type="file">
                                             </div>
                                             <div class="col fileupload">
-                                                <label for="">Photo Inside Workshop</label>
-                                                <input class="anim-label" placeholder-text="Upload Here" required="required" name="image_outside" type="file">
+                                                <label for="">{{ trans('frontend.contact.photo_inside_workshop') }}</label>
+                                                <input class="anim-label" placeholder-text="{{ trans('frontend.contact.upload_here') }}" required="required" name="image_outside" type="file">
                                             </div>
                                             <div class="col fileupload">
-                                                <label for="">Photo Selfie Workshop</label>
-                                                <input class="anim-label" placeholder-text="Upload Here" required="required" name="image_selfie" type="file">
+                                                <label for="">{{ trans('frontend.contact.photo_selfie_workshop') }}</label>
+                                                <input class="anim-label" placeholder-text="{{ trans('frontend.contact.upload_here') }}" required="required" name="image_selfie" type="file">
                                             </div>
                                         </div>
                                         <div class="row">

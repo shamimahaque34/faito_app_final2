@@ -1,6 +1,6 @@
 @extends('backend.master')
 
-@section('title', 'Create Bike Motor Type')
+@section('title', isset($bikeMotorType) ? 'Edit' : 'Create'.' Bike Motor Type')
 
 @section('body')
     <div class="row mt-5">
