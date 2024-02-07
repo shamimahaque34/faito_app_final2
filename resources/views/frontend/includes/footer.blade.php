@@ -29,31 +29,31 @@
                 <ul>
                     <li>
                         <a class="" href="{{ route('frontend.home') }}">
-                            Home
+                            {{ trans('frontend.menu.home') }}
                         </a>
 
                     </li>
                     <li>
                         <a class="" href="{{ route('frontend.faitology') }}">
-                            Story
+                            {{ trans('frontend.menu.story') }}
                         </a>
 
                     </li>
                     <li>
                         <a class="" href="{{ route('frontend.product') }}">
-                            Product
+                            {{ trans('frontend.menu.product') }}
                         </a>
 
                     </li>
                     <li>
                         <a class="" href="{{ route('frontend.contact') }}">
-                            Contact
+                            {{ trans('frontend.menu.contact') }}
                         </a>
 
                     </li>
                     <li>
                         <a class="" href="{{ route('frontend.faq') }}">
-                            FAQ
+                            {{ trans('frontend.menu.faq') }}
                         </a>
 
                     </li>
