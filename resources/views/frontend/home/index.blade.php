@@ -17,7 +17,7 @@
                     <h2>FAITO <b></b></h2>
                     <p>OUR INNOVATION FOR THE COMFORT</p>
                     <p>AND PERFORMANCE OF YOUR MOTORBIKE</p>
-                    <div class="btn-arr-home"><span>Read More</span></div>
+                    <div class="btn-arr-home"><span>{{ trans('frontend.common.read_more') }}</span></div>
                 </a>
             </div>
             <div class="list-slider">
@@ -157,7 +157,7 @@
                     <p>{{ trans('frontend.home.motto_sub_title') }}</p>
                     <p>{{ trans('frontend.home.motto_des') }}</p>
                     <p>&nbsp;</p>
-                    <span class="btn-arr">{{ trans('frontend.home.motto_btn') }}</span>
+                    <span class="btn-arr">{{ trans('frontend.common.read_more') }}</span>
                 </a>
             </div>
         </div>
@@ -174,7 +174,7 @@
                 <h1>{{ trans('frontend.home.faitotech_title') }}</h1>
                 <p>{{ trans('frontend.home.faitotech_des') }}</p>
                 <p>&nbsp;</p>
-                <span class="btn-arr">{{ trans('frontend.home.faitotech_btn') }}</span>
+                <span class="btn-arr">{{ trans('frontend.common.read_more') }}</span>
             </a>
             <a href="story/faitotech.html" class="img anim-from-bottom" trigger-anim=".trigger-about-2" delay="0.3">
                 <figure>
@@ -243,7 +243,7 @@
                     <div class="line-indicator-slider">
                         <span></span>
                     </div>
-                    <a href="product-faito.html" class="btn-arr">{{ trans('frontend.home.view_all_product') }}</a>
+                    <a href="product-faito.html" class="btn-arr">{{ trans('frontend.common.view_all_product') }}</a>
                 </div>
             </div>
         </div>
@@ -254,7 +254,7 @@
         <div class="wrapper">
             <div class="title-news anim-from-bottom" trigger-anim=".trigger-news" delay="0.3">
                 <h4>{{ trans('frontend.home.latest_update') }}</h4>
-                <a href="news.html" class="btn-arr">{{ trans('frontend.home.view_all') }}</a>
+                <a href="news.html" class="btn-arr">{{ trans('frontend.common.view_all') }}</a>
             </div>
             <div class="wrap-box-news">
                 <a href="news/detail/new-item-arrival-steering-cone-mx-series.html" class="big-img anim-from-bottom" trigger-anim=".trigger-news" delay="0.6">

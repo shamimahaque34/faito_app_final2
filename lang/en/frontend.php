@@ -79,8 +79,8 @@ return [
         'sub_title'=>'WHERE RIDING EXPERIENCE COUNT',
         'faitology_des_1'=>'Faito presents quality and innovative motorcycle spare parts products, each product is made with detailed accuracy standards, starting from the composition of materials and dimensional accuracy so that quality products are present.',
         'faitology_des_2'=>'Faito focus creates innovative products by considering performance, durability and comfort to provide a better riding experience.',
-        'faitology_vission'=>'VISION',
-        'faitology_vission_des'=>'Making Faito a leader in the worldwide spare parts market',
+        'faitology_vision'=>'VISION',
+        'faitology_vision_des'=>'Making Faito a leader in the worldwide spare parts market',
         'faitology_mission'=>'MISSION',
         'faitology_mission_des_1'=>'Providing high-performance parts combined with high-quality materials at very competitive prices.',
         'faitology_mission_des_2'=>'We have established a strong and reliable network throughout the world, spreading our influence in this highly competitive industry.',
@@ -96,10 +96,12 @@ return [
         ],
 
     'faitotech'=>[
-       'faitotech'=>'TECHNOLOGY FOR SOLUTIONS',
-       'faitotech_des_1'=>'We are perfecting existing technology so that driving comfort and performance are more excellent. Comes with products developed by an R&amp;D team who are full of experience, each product is designed by considering many factors and product testing before being thrown into the market, both performance testing and durability testing so that Faito
+       'faitotech_title'=>'TECHNOLOGY FOR SOLUTIONS',
+       'faitotech_des_1'=>'We are perfecting existing technology so that driving comfort and performance are more excellent. Comes with products developed by an R',
+       'faitotech_des_2'=>'&amp;',
+       'faitotech_des_3'=>'D team who are full of experience, each product is designed by considering many factors and product testing before being thrown into the market, both performance testing and durability testing so that Faito\'s
         products are indeed worthy of being the choice of bikers to upgrade their motorbik',
-       'faitotech_des_2'=>'Performance, durability and ride comfort are Faito philosophy in creating innovative products.',
+       'faitotech_des_4'=>'Performance, durability and ride comfort are Faito\'s philosophy in creating innovative products.',
     ],
 
     'brembology' =>[
@@ -111,12 +113,12 @@ return [
         'brembology_mission_des'=>'Brembo&rsquo;s mission is to become a Solution Provider, integrating its products and services into harmonic, all-round solutions to meet the rapidly evolving needs of the automotive industry.',
         'brembology_milestones'=>'milestones',
         'brembology_milestones_1'=>'THE ORIGINS OF A LEADER',
-        'brembology_milestones_1_des_1'=>'Brembo was founded just a few kilometres outside Bergamo in 1961 by Emilio Bombassei, the father of the group current president.',
+        'brembology_milestones_1_des_1'=>'Brembo was founded just a few kilometres outside Bergamo in 1961 by Emilio Bombassei, the father of the group\'s current president.',
         'brembology_milestones_1_des_2'=>'While it began as a small mechanical workshop, the experience of its founder in the mechanical sector and metallurgy was soon put to good use for prestigious clients such as Alfa Romeo.',
         'brembology_milestones_1_des_3'=>'1964 was a historic year for Brembo, when the company started production of the first Italian brake discs for the spare parts market. Soon afterwards, production activities were broadened to include other braking system components, and the competence and specialisation of the company and the quality of its products and services earned international recognition.',
         'brembology_milestones_1_des_4'=>'This paved the way for Brembo to become the leader in the European spare part brake disc market.',
         'brembology_milestones_2'=>'TRIUMPHS ON EVERY CIRCUIT',
-        'brembology_milestones_2_des_1'=>'When it began supplying Moto Guzzi in 1972, the Brembo brand became associated with Europe best motorcycles. Soon after, Brembo had secured the leadership in the motorcycle braking systems segment. But the greatest testament to the quality and technology of Brembo products came in 1975, when Enzo Ferrari asked the Bergamo based company to equip the most prestigious racing cars in Formula 1. It was not long before Brembo was the leading name in the motorsports braking systems segment.',
+        'brembology_milestones_2_des_1'=>'When it began supplying Moto Guzzi in 1972, the Brembo brand became associated with Europe\'s best motorcycles. Soon after, Brembo had secured the leadership in the motorcycle braking systems segment. But the greatest testament to the quality and technology of Brembo products came in 1975, when Enzo Ferrari asked the Bergamo based company to equip the most prestigious racing cars in Formula 1. It was not long before Brembo was the leading name in the motorsports braking systems segment.',
         'brembology_milestones_2_des_2'=>'Since then, countless teams using Brembo brakes have won hundreds of world championships in every possible automobile and motorcycle racing category.',
         'brembology_milestones_3'=>'INNOVATION AND GROWTH',
         'brembology_milestones_3_des_1'=>'From the beginning of the 1980s, Brembo focused on developing innovative products and processes, with a clearly defined strategy of expansion in specialised areas of the market from passenger cars to motorsports and motorcycles. In 1980, the product range was joined by an aluminium brake caliper for automobiles which was revolutionary in both design and the materials used.',
@@ -124,11 +126,12 @@ return [
         'brembology_milestones_3_des_3'=>'From the mid 1980s, Brembo decided to extend its operations into the industrial vehicle disc brake segment, becoming a strategic supplier for Iveco, Renault Industrial Vehicles and Mercedes.',
         'brembology_milestones_3_des_4'=>'In 1983, to give itself a more international scope, Brembo agreed to the acquisition of a share in the company by Kelsey-Hayes, a US based multinational braking systems manufacturer.',
         'brembology_milestones_3_des_5'=>'The resulting collaboration allowed the Italian management to grow and consolidate itself in preparation for the challenges of the future.',
-        'brembology_milestones_3_des_6'=>'AN ALL-ITALIAN COMPANY ONCE AGAIN',
-        'brembology_milestones_3_des_7'=>'In March 1993, as a consequence of a new strategic orientation, Kelsey-Hayes withdrew as a shareholder in the company. Brembo decided to focus its energies on the future of the company and, indirectly, on the competitiveness of the Italian manufacturing industry, drawing strength from the expertise of its managerial personnel and its technological superiority.',
-        'brembology_milestones_3_des_8'=>'When the company bought back the shareholding from Kelsey-Hayes, the goal set by Brembo\'s management was achieved in full. The company continued to grow throughout the subsequent years, and was listed on the Milan Stock Exchange in 1995: a success earned through intense teamwork, as is always the case at Brembo.',
-        
-    ]
+        'brembology_milestones_4'=>'AN ALL-ITALIAN COMPANY ONCE AGAIN',
+        'brembology_milestones_4_des_1'=>'In March 1993, as a consequence of a new strategic orientation, Kelsey-Hayes withdrew as a shareholder in the company. Brembo decided to focus its energies on the future of the company and, indirectly, on the competitiveness of the Italian manufacturing industry, drawing strength from the expertise of its managerial personnel and its technological superiority.',
+        'brembology_milestones_4_des_2'=>'When the company bought back the shareholding from Kelsey-Hayes, the goal set by Brembo\'s management was achieved in full. The company continued to grow throughout the subsequent years, and was listed on the Milan Stock Exchange in 1995: a success earned through intense teamwork, as is always the case at Brembo.',
+
+        'brembology_milestones_5'=>'EXPANDING THE BRAND GLOBALLY',
+        'brembology_milestones_5_des_1'=>'Brembo inaugurated the new millennium with a strategy of market expansion, acquiring the Brazilian company Alfa Real Minas for the machining of automobile brake discs and the assembly of engine flywheels. Brembo also acquired the British company AP Racing Limited, which is specialised in the production of brake and clutch systems for race cars and motorcycles and for high performance sports cars. To strengthen its presence in the motorcycle segment, Brembo acquired 70% of Marchesini, a company specialised in the production of magnesium wheels for race motorcycles.',
         
     ],
 
@@ -145,7 +148,14 @@ return [
        'new_item_arrival'=>'NEW ITEM ARRIVAL!',
        'new_item'=>'NEW ITEM!',
        'feature'=>'FEATURE :',
+       'related_news'=>'Related News',
+       'back_to_news_list'=>'Back to News List',
+       'live_chat'=>'LIVE CHAT',
     ],
+        
+    ],
+
+    
 
     'faito_products' =>[
       'faito_products'=>'Faito Products',

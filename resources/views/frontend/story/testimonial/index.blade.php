@@ -8,7 +8,7 @@
             <img src="{{ asset('/') }}frontend/assets/contents/rxITWU03xa.jpg" alt="">
         </figure>
         <div class="text-absolute">
-            <h2>TESTIMONIAL</h2>
+            <h2>{{ trans('frontend.story.testimonial.testimonial_upper') }}</h2>
             <span><img src="{{ asset('/') }}frontend/assets/images/material/shape-img-abs.png" alt=""></span>
         </div>
         <span class="shape-banner"><img src="{{ asset('/') }}frontend/assets/images/material/shape-banner.png" alt=""></span>
@@ -20,8 +20,8 @@
                 <div class="title-landing no-text-right">
                     <div class="title">
                         <span class="line-text"></span>
-                        <small>Testimonial</small>
-                        <h3>Testimonial</h3>
+                        <small>{{ trans('frontend.story.testimonial.testimonial') }}</small>
+                        <h3>{{ trans('frontend.story.testimonial.testimonial') }}</h3>
                     </div>
                 </div>
                 <div class="box-slider-testi">

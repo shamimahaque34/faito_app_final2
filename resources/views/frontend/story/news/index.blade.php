@@ -8,7 +8,7 @@
             <img src="{{ asset('/') }}frontend/assets/contents/FFAgeh1hrx.png" alt="">
         </figure>
         <div class="text-absolute">
-            <h2>News</h2>
+            <h2>{{ trans('frontend.story.news.news') }}</h2>
             <span><img src="{{ asset('/') }}frontend/assets/images/material/shape-img-abs.html" alt=""></span>
         </div>
         <span class="shape-banner"><img src="{{ asset('/') }}frontend/assets/images/material/shape-banner.html" alt=""></span>

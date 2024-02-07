@@ -48,6 +48,7 @@ Route::name('frontend.')->group(function (){
     Route::get('/search/productSearch', [HomeProductController::class, 'productSearch'])->name('product-search');
 });
 
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

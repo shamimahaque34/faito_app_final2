@@ -8,7 +8,7 @@
             <img src="{{ asset('/') }}frontend/assets/contents/z57opEbSvz.jpg" alt="">
         </figure>
         <div class="text-absolute">
-            <h2>Faitology</h2>
+            <h2>{{ trans('frontend.story_dropdown.faitology') }}</h2>
             <span><img src="{{ asset('/') }}frontend/assets/images/material/shape-img-abs.png" alt=""></span>
         </div>
         <span class="shape-banner"><img src="{{ asset('/') }}frontend/assets/images/material/shape-banner.png" alt=""></span>
@@ -20,31 +20,31 @@
                 <div class="title-landing">
                     <div class="title">
                         <span class="line-text"></span>
-                        <small>Who We Are</small>
-                        <h3>WHERE RIDING EXPERIENCE COUNT</h3>
+                        <small>{{ trans('frontend.story.faitology.title') }}</small>
+                        <h3>{{ trans('frontend.story.faitology.sub_title') }}</h3>
                     </div>
                     <div class="text-right">
-                        <p><p style="text-align: justify;">Faito presents quality and innovative motorcycle spare parts products, each product is made with detailed accuracy standards, starting from the composition of materials and dimensional accuracy so that quality products are present.</p>
-                        <p style="text-align: justify;">Faito focus creates innovative products by considering performance, durability and comfort to provide a better riding experience.</p></p>
+                        <p><p style="text-align: justify;">{{ trans('frontend.story.faitology.faitology_des_1') }}</p>
+                        <p style="text-align: justify;">{{ trans('frontend.story.faitology.faitology_des_2') }}</p></p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="wrap-visimisi">
             <div class="box" style="background-color: #2957A4;">
-                <small>VISION</small>
-                <p>Making Faito a leader in the worldwide spare parts market</p>
+                <small>{{ trans('frontend.story.faitology.faitology_vision') }}</small>
+                <p>{{ trans('frontend.story.faitology.faitology_vision_des') }}</p>
             </div>
             <div class="box" style="background-color: #4C4C4E;">
-                <small>MISSION</small>
-                <p style="text-align: justify;">Providing high-performance parts combined with high-quality materials at very competitive prices.</p>
-                <p style="text-align: justify;">We have established a strong and reliable network throughout the world, spreading our influence in this highly competitive industry.</p>
+                <small>{{ trans('frontend.story.faitology.faitology_mission') }}</small>
+                <p style="text-align: justify;">{{ trans('frontend.story.faitology.faitology_mission_des_1') }}</p>
+                <p style="text-align: justify;">{{ trans('frontend.story.faitology.faitology_mission_des_2') }}</p>
             </div>
         </div>
 
         <div class="wrapper">
             <section class="milestone">
-                <small class="with-line">milestones</small>
+                <small class="with-line">{{ trans('frontend.story.faitology.faitology_milestones') }}</small>
                 <div class="wrap-box-miles">
                     <div class="left-box">
                         <div class="slider-miles">
@@ -85,20 +85,20 @@
                     <div class="right-box">
                         <div class="slider-text">
                             <div class="list">
-                                <p>Faito was established, the company is managed by a board of directors who have been involved in the motorcycle industry for more than 30 years.</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_1') }}</p>
                             </div>
                             <div class="list">
-                                <p>Faito supports the local Petronas AAM Malaysian Cub Prix Championship, and participate in the race as the main sponsor for Faito YSP racing team and AAP Maz Oil HRC Faito racing team</p>
-                                <p>Faito opening branch in Indonesia</p>
-                                <p>Faito partner with Air-Asia-SIC -Ajo Team in MotoGP - Moto3</p>
-                                <p>FAITO co-sponsored Racing GIATMARA Garage Northern Team</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_2') }}</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_3') }}</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_4') }}</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_5') }}</p>
                             </div>
                             <div class="list">
-                                <p>Faito partner with Tsukigi Racing in Asia Road Racing Championship</p>
-                                <p>Roadshow to Japan</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_6') }}</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_7') }}</p>
                             </div>
                             <div class="list">
-                                <p>Faito opening of its first showroom in Caloocan, Philippines</p>
+                                <p>{{ trans('frontend.story.faitology.faitology_milestones_des_8') }}</p>
                             </div>
                         </div>
                     </div>
